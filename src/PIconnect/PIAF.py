@@ -151,7 +151,7 @@ class EventList(UserList):
                 lambda x: x.endtime if x else np.nan
             )
 
-        return df_events.drop_duplicates("Path")
+        return df_events
 
 
 class Attribute:
